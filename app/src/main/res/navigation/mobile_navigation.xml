@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.halfsubmission.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_Upcoming"
+        android:name="com.example.halfsubmission.ui.upcoming.UpcomingFragment"
+        android:label="Upcoming"
+        tools:layout="@layout/fragment_upcoming" />
+
+    <fragment
+        android:id="@+id/navigation_Finished"
+        android:name="com.example.halfsubmission.ui.finished.FinishedFragment"
+        android:label="Finished"
+        tools:layout="@layout/fragment_finished" />
+    <fragment
+        android:id="@+id/navigation_bookmark"
+        android:name="com.example.halfsubmission.ui.bookmark.BookmarkFragment"
+        android:label="fragment_bookmark"
+        tools:layout="@layout/fragment_bookmark" />
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.example.halfsubmission.ui.setting.SettingFragment"
+        android:label="SettingFragment"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

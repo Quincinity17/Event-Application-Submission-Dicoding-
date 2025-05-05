@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HalfSubmission</string>
+    <string name="title_home">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tema">Tema</string>
+    <string name="mode_gelap">Mode Gelap</string>
+    <string name="ganti_tampilan_jadi_lebih_nyaman_di_mata">Ganti tampilan jadi lebih nyaman di mata.</string>
+    <string name="preferensi">Preferensi</string>
+    <string name="notifikasi">Notifikasi</string>
+    <string name="biar_nggak_ketinggalan_nyalain_aja">Biar nggak ketinggalan, nyalain aja!</string>
+</resources>
